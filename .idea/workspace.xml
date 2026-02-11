@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6111ffc-bf2b-4042-a9ce-eca588217cb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DataAssignment3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA221-Assignment3-Question1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA221-Assignment3-Question1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA221-Assignment3-Question1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,5 +56,11 @@
       <updated>1770830249056</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Calculating the mean and median" />
+    <MESSAGE value="Importing packages and reading crime.cvs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Importing packages and reading crime.cvs" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="Importing packages and reading crime.cvs" />
   </component>
 </project>
