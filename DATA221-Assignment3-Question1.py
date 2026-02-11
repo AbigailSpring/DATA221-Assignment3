@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 crime_data_csv = pd.read_csv("crime1.csv")
 crime_column = crime_data_csv["ViolentCrimesPerPop"]

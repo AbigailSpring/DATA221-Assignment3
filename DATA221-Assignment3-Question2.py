@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 
 crime_data_csv = pd.read_csv("crime1.csv")
