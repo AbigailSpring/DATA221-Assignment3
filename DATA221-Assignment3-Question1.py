@@ -1,8 +1,8 @@
 import pandas as pd
-import numpy as py
+import numpy as np
 
-crime_data_cvs = pd.read_cvs("crime.cvs")
-crime_column = crime_data_cvs["ViolentCrimesPerPop"]
+crime_data_csv = pd.read_csv("crime1.csv")
+crime_column = crime_data_csv["ViolentCrimesPerPop"]
 crime_data_mean = crime_column.mean()
 crime_data_median = crime_column.median()
 crime_data_standard_deviation = crime_column.std()
