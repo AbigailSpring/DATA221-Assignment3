@@ -26,3 +26,16 @@ print("Accuracy:", test_accuracy)
 print("Precision:", test_precision)
 print("Recall:", test_recall)
 print("F1 Score:", test_f1_score)
+
+"""
+In kidney disease prediction, a True Positive occurs when the model correctly predicts
+that a patient has kidney disease, and a True Negative (TN) occurs when the model 
+correctly predicts that a patient does not have the disease. A False Positive happens 
+when the model incorrectly predicts disease for a healthy patient, while a False Negative 
+occurs when the model fails to detect kidney disease in a patient who actually has it.
+Accuracy alone may not be enough to evaluate the model because it does not show how well 
+the model detects the positive cases, especially if the dataset is imbalanced. If missing 
+a kidney disease case is very serious, sensitivity is the most important because it 
+measures how well the model correctly identifies patients who truly have the disease, 
+lowering the amounts of false negatives.
+"""
