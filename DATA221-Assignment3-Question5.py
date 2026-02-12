@@ -20,7 +20,7 @@ for k_value in k_values_to_test:
     test_accuracies.append(accuracy_for_k)
     print(f"k = {k_value}, Test Accuracy = {accuracy_for_k:.4f}")
     best_index = test_accuracies.index(max(test_accuracies))
-    best_k = k_value[best_index]
+    best_k = k_values_to_test[best_index]
     best_accuracy = test_accuracies[best_index]
     print("\nBest k value:", best_k)
     print("Test Accuracy for best k:", best_accuracy)
