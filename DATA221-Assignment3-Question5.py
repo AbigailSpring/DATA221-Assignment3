@@ -24,3 +24,10 @@ for k_value in k_values_to_test:
     best_accuracy = test_accuracies[best_index]
     print("\nBest k value:", best_k)
     print("Test Accuracy for best k:", best_accuracy)
+
+"""
+Changing k affects how many neighbors the model uses to make predictions.
+Small k values make the model very sensitive to the training data, which
+can cause overfitting. Large k values smooth out the decision boundary,
+which can cause underfitting by ignoring important patterns.
+"""
