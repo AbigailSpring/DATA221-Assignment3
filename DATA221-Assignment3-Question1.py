@@ -14,6 +14,7 @@ print("Median Value: ", crime_data_median)
 print("Standard Deviation Value: ", crime_data_standard_deviation)
 print("Minimum Value: ", crime_data_minimum_value)
 print("Maximum Value: ", crime_data_maximum_value)
+
 """
 - For this specific case, the mean and median are approximately equal.This indicates that
 the distribution is symmetric. 
